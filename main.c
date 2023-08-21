@@ -6,13 +6,18 @@ void dec2bin(int num);
 int main(){
 int op;
 int numero;
-printf("Digite a opcao desejada:\n(1)Decimal para Binario: ");
+printf("Digite a opcao desejada:\n(1)Decimal para Binario\n(02)Decimal para Octal\n");
 scanf("%d", &op);
 
 if(op==1){
 printf("Digite o numero Decimal a ser convertido em Binario: ");
 scanf("%d", &numero);
 dec2bin(numero);
+}
+
+if (op==2){
+printf("Digite o numero Decimal a ser convertido em Binario: ");
+scanf("%d", &numero);
 }
 
     return 0;
