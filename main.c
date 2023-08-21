@@ -7,7 +7,7 @@ void dec2oct(int num);
 int main(){
 int op;
 int numero;
-printf("Digite a opcao desejada:\n(1)Decimal para Binario\n(02)Decimal para Octal\n");
+printf("Digite a opcao desejada:\n(1)Decimal para Binario\n(02)Decimal para Octal\n(3)Decimal para Hexadecimal\n");
 scanf("%d", &op);
 
 if(op==1){
@@ -20,6 +20,12 @@ if (op==2){
 printf("Digite o numero Decimal a ser convertido em Octal: ");
 scanf("%d", &numero);
 dec2oct(numero);
+}
+
+if (op==3){
+printf("Digite o numero Decimal a ser convertido em Hexadecimal: ");
+scanf("%d", &numero);
+printf("Em hexadecimal: %x", numero);   
 }
 
     return 0;
