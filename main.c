@@ -24,7 +24,8 @@ dec2oct(numero);
 
 if (op==3){
 printf("Digite o numero Decimal a ser convertido em Hexadecimal: ");
-scanf("%d", &numero);   
+scanf("%d", &numero);
+printf("Em hexadecimal: %x", numero);   
 }
 
     return 0;
